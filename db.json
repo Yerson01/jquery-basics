@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "API REST para pruebas en 5 minutos, publicado en internet",
+      "author": "@devrchancay",
+      "url": "https://medium.com/p/734d31660d1e/"
+    },
+    {
+      "id": 2,
+      "title": "Creando un servidor de pruebas con Json server",
+      "author": "@devrchancay",
+      "url": "https://medium.com/p/734d31660d1e/"
+    },
+    {
+      "id": 3,
+      "title": "Como instalar json-server con node package manager(npm)",
+      "author": "@devrchancay",
+      "url": "https://medium.com/p/734d31660d1e/"
+    },
+    {
+      "id": "4",
+      "title": "Este es un post de prueba",
+      "author": "@yerson_84",
+      "url": "https://localhost"
+    },
+    {
+      "id": "5",
+      "title": "Este es un post de prueba",
+      "author": "@yerson_84",
+      "url": "https://localhost"
+    }
+  ],
+  "comments": [
+    {
+      "body": "¡Qué buen post! Gracias a esto vendi un proyecto millonario",
+      "postId": 1,
+      "profileId": 1
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "name": "Ramón",
+    "nickname": "devrchancay"
+  }
+}

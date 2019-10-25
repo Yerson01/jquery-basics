@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>JQuery</title>
+</head>
+<body>
+
+    <style>
+        .square {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+        }
+    </style>
+
+    <div class="container">
+        <div class="m-5">
+            <button type="button" id="ocultar" class="mb-4">
+                Ocultar
+            </button>
+            <button type="button" id="mostrar" class="mb-4">
+                Mostrar
+            </button>
+            <button type="button" id="toggle" class="mb-4">
+                Toggle
+            </button>
+            <button type="button" id="fade" class="mb-4">
+                Fade
+            </button>
+            <button type="button" id="slide" class="mb-4">
+                Slide
+            </button>
+            <button type="button" id="animate" class="mb-4">
+                Animate
+            </button>
+  
+       
+            <div class="square bg-danger" id="square">
+            </div>
+        
+            
+        </div>
+    </div>
+
+    <div class="container" id="container">
+        <h1 class="h1class" id="h1id">Texto de prueba 1</h1>
+        <h2 class="h2class" id="h2id">Texto de prueba 2</h2>
+        <ul id="posts-list">
+            
+        </ul>
+        <ul id="products-list">
+            <li class="product">product 1</li>
+            <li class="product">product 2</li>
+            <li class="product">product 3</li>
+        </ul>
+
+        <button type="button" id="remove-product">Eliminar un producto</button>
+    </div>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-4">
+                <div class="card">
+
+                    <img src="" alt="" class="card-img-top">
+
+                    <div class="card-body" id="c-body">
+                        <p class="text-title" id="text">Texto de Prueba</p>
+                        <button type="button" class="btn btn-info" id="btn-azul">
+                            Azul
+                        </button>
+                        <button type="button" class="btn btn-danger" id="btn-rojo">
+                            Rojo
+                        </button>
+                        <button type="button" class="btn btn-warning" id="btn-amarillo">
+                            Amarillo
+                        </button>
+                        <button type="button" class="btn btn-success" id="btn-fade">
+                            Fade
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-4">
+                <form action="" class="form-group" id="name-form">
+                    <input type="text" placeholder="Ingresa tu nombre" id="name" class="form-control" autocomplete="off">
+                    <button type="submit" class="btn btn-info mt-2">Enviar</button>
+                </form>
+                <div class="bg-dark p-3 text-white h1 rounded" id="name-preview">
+     
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="./app.js" defer></script>
+</body>
+</html>
